@@ -1,5 +1,5 @@
 import imgCard from "@assets/card-illustration.png";
-import imgCard2 from "@assets/card-illustration-1.png";
+import imgCard2 from "@assets/card-Illustration-1.png";
 import iconCard from "@assets/IconCard.png";
 
 export const cardIllustration = [
