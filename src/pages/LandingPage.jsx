@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Header from "../components/Header";
 import hero from "@assets/hero-section.png";
 import { companyLogos } from "@assets/data/companyLogo";
-import Card from "../components/card";
+import Card from "../components/Card";
 import { cardIllustration } from "../assets/data/cardIllustration";
 import illustrationCard from "@assets/illustrationCard.png";
 import { caseStudies } from "../assets/data/CaseStudies";
