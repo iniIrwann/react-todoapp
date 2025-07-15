@@ -1,18 +1,18 @@
 import React, { useState } from "react";
 import Header from "../components/Header";
-import hero from "@assets/hero-section.png";
-import { companyLogos } from "@assets/data/companyLogo";
-import Card from "../components/Card";
-import { cardIllustration } from "../assets/data/cardIllustration";
-import illustrationCard from "@assets/illustrationCard.png";
-import { caseStudies } from "../assets/data/CaseStudies";
-import { Link } from "react-router-dom";
-import { accordionData } from "../assets/data/accordionData";
 import AccordionList from "../components/AccordionList";
 import CardTeam from "../components/CardTeam";
 import Testimonials from "../components/Testimonial";
 import ContactUs from "../components/ContactUs";
 import Footer from "../components/Footer";
+import Card from "../components/Card";
+import { cardIllustration } from "../assets/data/cardIllustration";
+import hero from "@assets/hero-section.png";
+import { companyLogos } from "@assets/data/companyLogo";
+import illustrationCard from "@assets/illustrationCard.png";
+import { accordionData } from "../assets/data/accordionData";
+import { caseStudies } from "../assets/data/caseStudies";
+import { Link } from "react-router-dom";
 
 function LandingPage() {
   const [openIndex, setOpenIndex] = useState(0);
